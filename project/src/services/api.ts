@@ -1,6 +1,6 @@
 import { ApiResponse } from '../types';
 
-const API_KEY = 'BBEEPWFKD5CQLB30';
+const API_KEY = 'demo';
 const BASE_URL = 'https://www.alphavantage.co/query';
 
 export async function fetchData<T>(endpoint: string, params: Record<string, string> = {}): Promise<ApiResponse<T>> {
